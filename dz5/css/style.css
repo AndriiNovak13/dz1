@@ -1,0 +1,90 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before,*::after {
+  box-sizing: border-box;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    background: #F6F7FA;    
+    font-family: 'Open Sans', sans-serif;    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #fff;
+}
+.container{
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
+/*/////////////////////////////////////////////////*/
+
+/*intro*/
+
+.intro{
+    padding-top: 32px;
+}
+.intro__box{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-right: 36px;
+    margin-left: 36px;
+}
+.intro__item1{
+    width: calc(50% - 24px);
+    margin-right: 12px;
+    margin-left: 12px;
+
+    background: linear-gradient(90.08deg, #25335A 0.02%, #141824 113.01%);
+    border-radius: 16px;
+
+    padding: 72px 0px 35px 40px;
+
+    position: relative;
+
+    margin-bottom: 64px;
+}
+.two{
+    background: #FFFFFF;
+    color: #AD4328;
+}
+.intro__text{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+
+
+.intro__img1{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+.intro__img2{
+    position: absolute;
+    top: 15px;
+    right: -10px;
+}
+.intro__img3{
+    position: absolute;
+    top: -10px;
+    right: 30px;
+}
+.intro__img4{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+.intro__img5{
+    position: absolute;
+    top: -30px;
+    right: 30px;
+}

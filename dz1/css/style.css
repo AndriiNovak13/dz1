@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(178,201,172);
+     background: radial-gradient(circle, rgba(178,201,172,1) 30%, rgba(67,161,79,1) 100%); 
+
+     font-family: sans-serif;
+}
+p{
+	margin-bottom: 30px;
+}
+.logform{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+
+    margin-top: 100px;
+    padding: 40px 0 10px;
+
+    background-color: #fff;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 3px;
+
+    text-align: center;
+}
+.title{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #6bbf70;
+    margin-bottom: 40px;
+}
+.form{
+    padding: 0 40px;
+    color: #949494;
+    font-size: 20px;
+}
+.label{
+    display: inline-block;
+    width: 200px;
+	vertical-align: top;
+	text-align: left; 
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+.email, .pass{
+    width: 300px;
+    font-size: 20px;
+    border: 1px solid #949494;
+    border-radius: 4px;
+
+    padding: 5px 10px;
+}
+.btn{
+    text-transform: uppercase;
+    background-color: #65ca60;
+    color: #fff;
+    border: 1px solid #65ca60;
+    border-radius: 4px;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 700;
+
+    cursor: pointer;
+}

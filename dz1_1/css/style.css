@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    text-align: center;
+}
+.header{
+    background-color: #b1d0b0;
+    height: 50px;
+}
+.nav{
+    background-color: #69be63;
+    height: 40px;
+}
+.main{
+    display: flex;
+}
+#sidebar, #aside{
+    background-color: #5992d7;
+    width: 20%;
+    height: 300px;
+}
+#content{
+    background-color: #96b4da;
+    width: 60%;
+    height: 300px;
+}
+.footer{
+    background-color: #b1d0b0;
+    height: 30px;
+}
