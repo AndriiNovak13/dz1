@@ -1,0 +1,40 @@
+.dropmenu__inner{
+    display: inline-block;
+    position: relative;
+}
+.drop__btn{
+    cursor: pointer;
+    background-color: yellowgreen;
+    border: none;
+    padding: 10px 20px;
+    color: #000;
+    font-size: 16px;
+}
+.drop__btn:focus{
+    outline: none;
+}
+.drop__list{
+    background-color: yellow;
+    padding: 15px 10px;
+    display: none;
+}
+.drop__list a{
+    display: block;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.drop__list a:hover{
+    text-decoration: underline;
+}
+.drop__list a:last-child{
+    margin-bottom: 0;
+}
+
+/* //// */
+.drop__list.active{
+    display: block;
+}

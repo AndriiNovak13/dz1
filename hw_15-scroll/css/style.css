@@ -1,0 +1,12 @@
+div{
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+.active{
+    background-color: yellowgreen;
+}
+.active-size{
+    font-size: 25px;
+    color: red;
+}

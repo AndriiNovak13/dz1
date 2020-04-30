@@ -1,0 +1,11 @@
+.tr{
+    display: flex;
+}
+.td{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #000;
+}
+.active{
+    background-color: yellow;
+}
