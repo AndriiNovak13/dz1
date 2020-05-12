@@ -1,0 +1,11 @@
+body{
+    margin: 20px;
+    padding: 0;
+}
+.list li{
+    width: 150px;
+    height: 30px;
+    background-color: yellowgreen;
+    list-style-type: none;
+    margin-bottom: 30px;
+}
