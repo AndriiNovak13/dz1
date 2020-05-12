@@ -1,0 +1,21 @@
+.box{
+    display: flex;
+    margin-bottom: 20px;
+}
+.box div{
+    margin-right: 40px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.box div:last-child{
+    margin-right: 0px;
+}
+
+button{
+    margin-right: 40px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+button:last-child{
+    margin-right: 0;
+}
